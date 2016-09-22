@@ -12,7 +12,9 @@ int main() {
 	cout << d1->getWeight() << endl;
 	cout << d2->getWeight() << endl;
 	cout << d3->getWeight() << endl;
-
+	d2->clear();
+	cout << d2->getWeight() << endl;
+	delete d1;
 	system("PAUSE");
 	return 0;
 }

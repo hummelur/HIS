@@ -3,17 +3,25 @@
 using namespace std;
 
 HollowDoll::HollowDoll(Doll *doll, int weight) :
-	Doll(),
 	mDoll(doll),
 	mWeight(weight) {
 }
 
 HollowDoll::~HollowDoll() {
-
+	delete mDoll;
 }
 
 int HollowDoll::getWeight() {
-	return mDoll->getWeight() + mWeight;
+	int weight = mWeight;
+	if (mDoll != 0) {
+		weight += mDoll->getWeight();
+	}
+	return weight;
+}
+
+void HollowDoll::clear() {
+	delete mDoll;
+	mDoll = 0;
 }
 
 void HollowDoll::setWeight(int weight) {

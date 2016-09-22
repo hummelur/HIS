@@ -8,6 +8,7 @@ public:
 	SolidDoll(int weight);
 	virtual ~SolidDoll();
 	virtual int getWeight();
+	virtual void clear();
 	void setWeight(int weight);
 private:
 	int mWeight;

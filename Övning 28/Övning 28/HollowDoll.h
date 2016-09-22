@@ -8,6 +8,7 @@ public:
 	HollowDoll(Doll *doll, int weight);
 	virtual ~HollowDoll();
 	virtual int getWeight();
+	virtual void clear();
 	void setWeight(int weight);
 private:
 	int mWeight;
