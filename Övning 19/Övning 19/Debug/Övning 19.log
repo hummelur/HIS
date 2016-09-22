@@ -1,0 +1,15 @@
+﻿  Product.cpp
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(7): error C2653: 'Product': is not a class or namespace name
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(9): error C2550: 'Product': constructor initializer lists are only allowed on constructor definitions
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(10): warning C4508: 'Product': function should return a value; 'void' return type assumed
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(12): error C2653: 'Product': is not a class or namespace name
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(13): error C2065: 'mName': undeclared identifier
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(15): error C2653: 'Product': is not a class or namespace name
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(16): error C2065: 'mPrice': undeclared identifier
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(18): error C2653: 'Product': is not a class or namespace name
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(18): error C2270: 'getName': modifiers not allowed on nonmember functions
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(19): error C2065: 'mName': undeclared identifier
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(21): error C2653: 'Product': is not a class or namespace name
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(21): error C2270: 'getPrice': modifiers not allowed on nonmember functions
+c:\users\olltard\documents\visual studio 2015\projects\övning 19\övning 19\product.cpp(22): error C2065: 'mPrice': undeclared identifier
